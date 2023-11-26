@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 // Items array to store the to-do list items.
-const items = ["Buy Food", "Cook Food", "Eat Food"];
+const items = ["Entrega Proyecto", "Hacer la compra", "Sacar al perro", "Tirar la basura"];
 
 // Separate array to store work-related to-do items.
 const workItems = [];
